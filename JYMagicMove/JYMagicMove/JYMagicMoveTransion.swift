@@ -38,11 +38,11 @@ class JYMagicMoveTransion: NSObject ,UIViewControllerAnimatedTransitioning{
         container?.addSubview(snapshotView)
         
         //做动画前先把avaterImageView 的frame 更新一下 不然 storyboard 尺寸没有更新
-        toVC.avaterImageView.layoutIfNeeded()
+//        toVC.avaterImageView.layoutIfNeeded()
         UIView.animateWithDuration(transitionDuration(transitionContext), delay: 0, options: UIViewAnimationOptions.CurveEaseInOut, animations: {
             () -> Void in
             //动画
-//            toVC.view.layoutIfNeeded()
+            toVC.view.layoutIfNeeded()
             snapshotView.frame = toVC.avaterImageView.frame
             toVC.view.alpha = 1
         }) { (finish:Bool) -> Void in
