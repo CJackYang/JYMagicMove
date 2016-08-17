@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="GYd-O1-PTN">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="ezf-F7-H9W">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="GYd-O1-PTN" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="vCG-b0-GQZ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="OGT-H8-RAb" kind="relationship" relationship="rootViewController" id="XCW-OB-4NK"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FUU-Ff-OVn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-395" y="1104"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="qmw-Rw-8zd">
+            <objects>
+                <collectionViewController id="OGT-H8-RAb" customClass="ViewController" customModule="JYMagicMove" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="HbH-Te-hRO">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="t95-xT-z4t">
+                            <size key="itemSize" width="182" height="204"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cardCell" id="HmM-cP-DTh" customClass="JYMagicCell" customModule="JYMagicMove" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="64" width="182" height="204"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="182" height="204"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="touxiang.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="0ib-XH-X2n">
+                                            <rect key="frame" x="0.0" y="0.0" width="182" height="204"/>
+                                        </imageView>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <constraints>
+                                    <constraint firstItem="0ib-XH-X2n" firstAttribute="height" secondItem="HmM-cP-DTh" secondAttribute="height" id="TLl-Id-CEC"/>
+                                    <constraint firstItem="0ib-XH-X2n" firstAttribute="top" secondItem="HmM-cP-DTh" secondAttribute="topMargin" constant="-8" id="j3f-qn-Vmy"/>
+                                    <constraint firstItem="0ib-XH-X2n" firstAttribute="width" secondItem="HmM-cP-DTh" secondAttribute="width" id="siL-F5-9xh"/>
+                                    <constraint firstItem="0ib-XH-X2n" firstAttribute="leading" secondItem="HmM-cP-DTh" secondAttribute="leadingMargin" constant="-8" id="uxS-NE-zpP"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="imageView" destination="0ib-XH-X2n" id="vit-Bp-kRL"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="OGT-H8-RAb" id="uwL-0V-oW6"/>
+                            <outlet property="delegate" destination="OGT-H8-RAb" id="aua-P2-vVV"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" id="Qdp-7Q-Uee"/>
+                    <connections>
+                        <segue destination="bUw-YT-olL" kind="show" identifier="detail" id="iAo-Wv-vNP"/>
+                    </connections>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ywb-mO-HXT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="295" y="1136"/>
+        </scene>
+        <!--Detail Controller-->
+        <scene sceneID="Hbm-CO-qah">
+            <objects>
+                <viewController id="bUw-YT-olL" customClass="JYDetailController" customModule="JYMagicMove" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZLX-mk-PeB"/>
+                        <viewControllerLayoutGuide type="bottom" id="MWA-Zh-mQ7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="e2q-p7-gx8">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="touxiang.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Uuh-BN-4CM">
+                                <rect key="frame" x="166" y="88" width="269" height="268"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="269" id="3gu-0h-o4K"/>
+                                    <constraint firstAttribute="height" constant="268" id="6bd-RA-yqr"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Nmk-Z4-3f7">
+                                <rect key="frame" x="166" y="400" width="240" height="192"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="192" id="FIJ-gB-H4j"/>
+                                    <constraint firstAttribute="width" constant="240" id="YC8-sM-kdh"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Nmk-Z4-3f7" firstAttribute="top" secondItem="Uuh-BN-4CM" secondAttribute="bottom" constant="44" id="1Wf-bv-gRe"/>
+                            <constraint firstItem="Uuh-BN-4CM" firstAttribute="top" secondItem="ZLX-mk-PeB" secondAttribute="bottom" constant="24" id="cGj-Xc-V0w"/>
+                            <constraint firstItem="Uuh-BN-4CM" firstAttribute="centerX" secondItem="e2q-p7-gx8" secondAttribute="centerX" id="vNY-F2-tNr"/>
+                            <constraint firstItem="Nmk-Z4-3f7" firstAttribute="leading" secondItem="Uuh-BN-4CM" secondAttribute="leading" id="wKl-vF-nBh"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="nts-ml-unA"/>
+                    <connections>
+                        <outlet property="avaterImageView" destination="Uuh-BN-4CM" id="Gm3-2u-IrW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yAX-9v-UJc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-61" y="1878"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="touxiang.jpg" width="640" height="640"/>
+    </resources>
+</document>

@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1133B161D62E10A00D6370F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1133B151D62E10A00D6370F /* AppDelegate.swift */; };
+		C1133B181D62E10A00D6370F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1133B171D62E10A00D6370F /* ViewController.swift */; };
+		C1133B1B1D62E10A00D6370F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1133B191D62E10A00D6370F /* Main.storyboard */; };
+		C1133B1D1D62E10A00D6370F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1133B1C1D62E10A00D6370F /* Assets.xcassets */; };
+		C1133B201D62E10A00D6370F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1133B1E1D62E10A00D6370F /* LaunchScreen.storyboard */; };
+		C1133B2B1D62E10B00D6370F /* JYMagicMoveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1133B2A1D62E10B00D6370F /* JYMagicMoveTests.swift */; };
+		C1133B361D62E10B00D6370F /* JYMagicMoveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1133B351D62E10B00D6370F /* JYMagicMoveUITests.swift */; };
+		C1133B441D62E3A800D6370F /* JYMagicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1133B431D62E3A800D6370F /* JYMagicCell.swift */; };
+		C1133B461D62E40E00D6370F /* touxiang.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C1133B451D62E40E00D6370F /* touxiang.jpg */; };
+		C1133B481D62E87D00D6370F /* JYDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1133B471D62E87D00D6370F /* JYDetailController.swift */; };
+		C1133B4A1D62EEF000D6370F /* JYMagicMoveTransion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1133B491D62EEF000D6370F /* JYMagicMoveTransion.swift */; };
+		C1133B4C1D630AAA00D6370F /* JYMagicPopTransion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1133B4B1D630AAA00D6370F /* JYMagicPopTransion.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1133B271D62E10B00D6370F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1133B0A1D62E10A00D6370F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1133B111D62E10A00D6370F;
+			remoteInfo = JYMagicMove;
+		};
+		C1133B321D62E10B00D6370F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1133B0A1D62E10A00D6370F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1133B111D62E10A00D6370F;
+			remoteInfo = JYMagicMove;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C1133B121D62E10A00D6370F /* JYMagicMove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYMagicMove.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1133B151D62E10A00D6370F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C1133B171D62E10A00D6370F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C1133B1A1D62E10A00D6370F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1133B1C1D62E10A00D6370F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1133B1F1D62E10A00D6370F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1133B211D62E10A00D6370F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1133B261D62E10B00D6370F /* JYMagicMoveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYMagicMoveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1133B2A1D62E10B00D6370F /* JYMagicMoveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JYMagicMoveTests.swift; sourceTree = "<group>"; };
+		C1133B2C1D62E10B00D6370F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1133B311D62E10B00D6370F /* JYMagicMoveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYMagicMoveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1133B351D62E10B00D6370F /* JYMagicMoveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JYMagicMoveUITests.swift; sourceTree = "<group>"; };
+		C1133B371D62E10B00D6370F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1133B431D62E3A800D6370F /* JYMagicCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYMagicCell.swift; sourceTree = "<group>"; };
+		C1133B451D62E40E00D6370F /* touxiang.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = touxiang.jpg; sourceTree = "<group>"; };
+		C1133B471D62E87D00D6370F /* JYDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYDetailController.swift; sourceTree = "<group>"; };
+		C1133B491D62EEF000D6370F /* JYMagicMoveTransion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYMagicMoveTransion.swift; sourceTree = "<group>"; };
+		C1133B4B1D630AAA00D6370F /* JYMagicPopTransion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYMagicPopTransion.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1133B0F1D62E10A00D6370F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1133B231D62E10B00D6370F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1133B2E1D62E10B00D6370F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1133B091D62E10A00D6370F = {
+			isa = PBXGroup;
+			children = (
+				C1133B141D62E10A00D6370F /* JYMagicMove */,
+				C1133B291D62E10B00D6370F /* JYMagicMoveTests */,
+				C1133B341D62E10B00D6370F /* JYMagicMoveUITests */,
+				C1133B131D62E10A00D6370F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1133B131D62E10A00D6370F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1133B121D62E10A00D6370F /* JYMagicMove.app */,
+				C1133B261D62E10B00D6370F /* JYMagicMoveTests.xctest */,
+				C1133B311D62E10B00D6370F /* JYMagicMoveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1133B141D62E10A00D6370F /* JYMagicMove */ = {
+			isa = PBXGroup;
+			children = (
+				C1133B451D62E40E00D6370F /* touxiang.jpg */,
+				C1133B151D62E10A00D6370F /* AppDelegate.swift */,
+				C1133B171D62E10A00D6370F /* ViewController.swift */,
+				C1133B471D62E87D00D6370F /* JYDetailController.swift */,
+				C1133B4B1D630AAA00D6370F /* JYMagicPopTransion.swift */,
+				C1133B491D62EEF000D6370F /* JYMagicMoveTransion.swift */,
+				C1133B431D62E3A800D6370F /* JYMagicCell.swift */,
+				C1133B191D62E10A00D6370F /* Main.storyboard */,
+				C1133B1C1D62E10A00D6370F /* Assets.xcassets */,
+				C1133B1E1D62E10A00D6370F /* LaunchScreen.storyboard */,
+				C1133B211D62E10A00D6370F /* Info.plist */,
+			);
+			path = JYMagicMove;
+			sourceTree = "<group>";
+		};
+		C1133B291D62E10B00D6370F /* JYMagicMoveTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1133B2A1D62E10B00D6370F /* JYMagicMoveTests.swift */,
+				C1133B2C1D62E10B00D6370F /* Info.plist */,
+			);
+			path = JYMagicMoveTests;
+			sourceTree = "<group>";
+		};
+		C1133B341D62E10B00D6370F /* JYMagicMoveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C1133B351D62E10B00D6370F /* JYMagicMoveUITests.swift */,
+				C1133B371D62E10B00D6370F /* Info.plist */,
+			);
+			path = JYMagicMoveUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1133B111D62E10A00D6370F /* JYMagicMove */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1133B3A1D62E10B00D6370F /* Build configuration list for PBXNativeTarget "JYMagicMove" */;
+			buildPhases = (
+				C1133B0E1D62E10A00D6370F /* Sources */,
+				C1133B0F1D62E10A00D6370F /* Frameworks */,
+				C1133B101D62E10A00D6370F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JYMagicMove;
+			productName = JYMagicMove;
+			productReference = C1133B121D62E10A00D6370F /* JYMagicMove.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1133B251D62E10B00D6370F /* JYMagicMoveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1133B3D1D62E10B00D6370F /* Build configuration list for PBXNativeTarget "JYMagicMoveTests" */;
+			buildPhases = (
+				C1133B221D62E10B00D6370F /* Sources */,
+				C1133B231D62E10B00D6370F /* Frameworks */,
+				C1133B241D62E10B00D6370F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1133B281D62E10B00D6370F /* PBXTargetDependency */,
+			);
+			name = JYMagicMoveTests;
+			productName = JYMagicMoveTests;
+			productReference = C1133B261D62E10B00D6370F /* JYMagicMoveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C1133B301D62E10B00D6370F /* JYMagicMoveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1133B401D62E10B00D6370F /* Build configuration list for PBXNativeTarget "JYMagicMoveUITests" */;
+			buildPhases = (
+				C1133B2D1D62E10B00D6370F /* Sources */,
+				C1133B2E1D62E10B00D6370F /* Frameworks */,
+				C1133B2F1D62E10B00D6370F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1133B331D62E10B00D6370F /* PBXTargetDependency */,
+			);
+			name = JYMagicMoveUITests;
+			productName = JYMagicMoveUITests;
+			productReference = C1133B311D62E10B00D6370F /* JYMagicMoveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1133B0A1D62E10A00D6370F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = JackYang;
+				TargetAttributes = {
+					C1133B111D62E10A00D6370F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					C1133B251D62E10B00D6370F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C1133B111D62E10A00D6370F;
+					};
+					C1133B301D62E10B00D6370F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C1133B111D62E10A00D6370F;
+					};
+				};
+			};
+			buildConfigurationList = C1133B0D1D62E10A00D6370F /* Build configuration list for PBXProject "JYMagicMove" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1133B091D62E10A00D6370F;
+			productRefGroup = C1133B131D62E10A00D6370F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1133B111D62E10A00D6370F /* JYMagicMove */,
+				C1133B251D62E10B00D6370F /* JYMagicMoveTests */,
+				C1133B301D62E10B00D6370F /* JYMagicMoveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1133B101D62E10A00D6370F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1133B201D62E10A00D6370F /* LaunchScreen.storyboard in Resources */,
+				C1133B1D1D62E10A00D6370F /* Assets.xcassets in Resources */,
+				C1133B461D62E40E00D6370F /* touxiang.jpg in Resources */,
+				C1133B1B1D62E10A00D6370F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1133B241D62E10B00D6370F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1133B2F1D62E10B00D6370F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1133B0E1D62E10A00D6370F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1133B181D62E10A00D6370F /* ViewController.swift in Sources */,
+				C1133B481D62E87D00D6370F /* JYDetailController.swift in Sources */,
+				C1133B4C1D630AAA00D6370F /* JYMagicPopTransion.swift in Sources */,
+				C1133B4A1D62EEF000D6370F /* JYMagicMoveTransion.swift in Sources */,
+				C1133B161D62E10A00D6370F /* AppDelegate.swift in Sources */,
+				C1133B441D62E3A800D6370F /* JYMagicCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1133B221D62E10B00D6370F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1133B2B1D62E10B00D6370F /* JYMagicMoveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1133B2D1D62E10B00D6370F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1133B361D62E10B00D6370F /* JYMagicMoveUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1133B281D62E10B00D6370F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1133B111D62E10A00D6370F /* JYMagicMove */;
+			targetProxy = C1133B271D62E10B00D6370F /* PBXContainerItemProxy */;
+		};
+		C1133B331D62E10B00D6370F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1133B111D62E10A00D6370F /* JYMagicMove */;
+			targetProxy = C1133B321D62E10B00D6370F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1133B191D62E10A00D6370F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1133B1A1D62E10A00D6370F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1133B1E1D62E10A00D6370F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1133B1F1D62E10A00D6370F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1133B381D62E10B00D6370F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1133B391D62E10B00D6370F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1133B3B1D62E10B00D6370F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JYMagicMove/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wisnuc.JYMagicMove;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C1133B3C1D62E10B00D6370F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JYMagicMove/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wisnuc.JYMagicMove;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C1133B3E1D62E10B00D6370F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JYMagicMoveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wisnuc.JYMagicMoveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYMagicMove.app/JYMagicMove";
+			};
+			name = Debug;
+		};
+		C1133B3F1D62E10B00D6370F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JYMagicMoveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wisnuc.JYMagicMoveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYMagicMove.app/JYMagicMove";
+			};
+			name = Release;
+		};
+		C1133B411D62E10B00D6370F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JYMagicMoveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wisnuc.JYMagicMoveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JYMagicMove;
+			};
+			name = Debug;
+		};
+		C1133B421D62E10B00D6370F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JYMagicMoveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wisnuc.JYMagicMoveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JYMagicMove;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1133B0D1D62E10A00D6370F /* Build configuration list for PBXProject "JYMagicMove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1133B381D62E10B00D6370F /* Debug */,
+				C1133B391D62E10B00D6370F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1133B3A1D62E10B00D6370F /* Build configuration list for PBXNativeTarget "JYMagicMove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1133B3B1D62E10B00D6370F /* Debug */,
+				C1133B3C1D62E10B00D6370F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C1133B3D1D62E10B00D6370F /* Build configuration list for PBXNativeTarget "JYMagicMoveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1133B3E1D62E10B00D6370F /* Debug */,
+				C1133B3F1D62E10B00D6370F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C1133B401D62E10B00D6370F /* Build configuration list for PBXNativeTarget "JYMagicMoveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1133B411D62E10B00D6370F /* Debug */,
+				C1133B421D62E10B00D6370F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1133B0A1D62E10A00D6370F /* Project object */;
+}
