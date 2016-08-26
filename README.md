@@ -5,4 +5,4 @@ card move animation at two viewController
 
 ![image](https://github.com/GeekYong/JYMagicMove/blob/master/JYMagicMove/magicmove.gif)
 
-KittenYang had allready write it with OC:  [Objective-C](https://github.com/GeekYong/JYMagicMove) 
+KittenYang had allready write it with OC:  [Objective-C](https://github.com/KittenYang/KYMagicMove) 
